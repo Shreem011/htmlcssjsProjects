@@ -1,0 +1,95 @@
+```
+{
+    "_id": "0x7ec",
+    "token_id": "0x7ec",
+    "owned_by": "hxb0d886f01ca2697ce9961232a754bb3923142128",
+    "token_name": "GangstaBet #2028",
+    "skills": {
+        "Racketeering": 0,
+        "Shooting": 0,
+        "Gambling": 0,
+        "Intelligence": 0,
+        "Strategy": 0
+    },
+    "for_sale": true,
+    "token_uri": "https://d2l8dezwbqkb9.cloudfront.net/ipfs/img/3934.gif",
+    "type": "Gangster",
+    "class_type": "Pokerstar",
+    "selling_price": 555,
+    "attributes": [
+        {
+            "key": "Background",
+            "value": "Colors"
+        },
+        {
+            "key": "Gender",
+            "value": "Male"
+        },
+        {
+            "key": "Stance",
+            "value": "Short"
+        },
+        {
+            "key": "Type",
+            "value": "Human"
+        },
+        {
+            "key": "Dress Shirt",
+            "value": "Solid"
+        },
+        {
+            "key": "Dress Shirt Color",
+            "value": "Light Green"
+        },
+        {
+            "key": "Suit Pant",
+            "value": "Stripes"
+        },
+        {
+            "key": "Suit Pant Color",
+            "value": "Dark Brown"
+        },
+        {
+            "key": "Tie",
+            "value": "Necktie"
+        },
+        {
+            "key": "Open Suit Jacket",
+            "value": "Striped"
+        },
+        {
+            "key": "Open Suit Jacket Color",
+            "value": "Dark Brown"
+        },
+        {
+            "key": "Shoes",
+            "value": "Two-tone"
+        },
+        {
+            "key": "Shoes Color",
+            "value": "Black And White"
+        },
+        {
+            "key": "Accessory",
+            "value": "Molotov Cocktail"
+        },
+        {
+            "key": "Gloves",
+            "value": "Black"
+        },
+        {
+            "key": "Hair",
+            "value": "Ivy League (for Hats)"
+        },
+        {
+            "key": "Hair Color",
+            "value": "Dark Golden Brown"
+        },
+        {
+            "key": "Hat",
+            "value": "Bowler"
+        }
+    ],
+    "total_stats": 0
+}
+```

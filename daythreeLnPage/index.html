@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day 03 Ln page</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Phone</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="information">
+            <div class="overlay"></div>
+            <img src="img/mobile.png" class="mobile">
+            <div id="circle">
+                <div class="feature one">
+                    <img src="img/camera.png">
+                    <div>
+                        <h1>camera</h1>
+                        <p>hhdjshdjkhsjd</p>
+                    </div>
+                </div>
+                <div class="feature two">
+                    <img src="img/processor.png">
+                    <div>
+                        <h1>processor</h1>
+                        <p>hhdjshdjkhsjd</p>
+                    </div>
+                </div>
+                <div class="feature three">
+                    <img src="img/display.png">
+                    <div>
+                        <h1>display</h1>
+                        <p>hhdjshdjkhsjd</p>
+                    </div>
+                </div>
+                <div class="feature four">
+                    <img src="img/battery.png">
+                    <div>
+                        <h1>battery</h1>
+                        <p>hhdjshdjkhsjd</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <img src="img/arrow.png" id="upBtn">
+            <h3>Features</h3>
+            <img src="img/arrow.png" id="dnBtn">
+        </div>
+    </div>
+
+    <script>
+        var circle = document.getElementById("circle");
+        var upBtn = document.getElementById("upBtn");
+        var dnBtn = document.getElementById("dnBtn");
+
+        var rotateValue = 0;
+        upBtn.onclick = function () {
+            rotateValue -= 90; // Rotate counter-clockwise by 90 degrees
+            circle.style.transform = "rotate(" + rotateValue + "deg)";
+        }
+        dnBtn.onclick = function () {
+            rotateValue += 90; // Rotate counter-clockwise by 90 degrees
+            circle.style.transform = "rotate(" + rotateValue + "deg)";
+        }
+    </script>
+</body>
+
+</html>
